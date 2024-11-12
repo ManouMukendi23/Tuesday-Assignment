@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header, footer {
+    background-color: #192233;
+    color: white;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #357edd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #285ea8;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-links a {
+    margin-left: 15px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #1e293b;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .hero-text p {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #cbd5e1;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  /* Info Section */
+  .info {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .info h2 {
+    margin-bottom: 30px;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Quote Section */
+  .quote {
+    background-color: #f3f4f6;
+    padding: 40px 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .quote cite {
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    
+  }
+  
+  /* CTA Section */
+  .cta {
+    background-color: #2563eb;
+    /* color: white;     */
+    padding: 40px 20px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+    justify-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .cta-title{
+    display: flex;
+    margin: 0px;
+    color: white;
+    text-align: left; 
+    font-size: 16px;
+  }
+
+  .cta-description{
+    display: flex;
+    margin: 0px;
+    color: rgb(193, 193, 193);
+    text-align: left; 
+    font-size: 14px;
+  }
+
+  .left-cta{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+  }
+
+  .right-cta{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cta .btn {
+    /* margin-top: 40px; */
+  }
+
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
